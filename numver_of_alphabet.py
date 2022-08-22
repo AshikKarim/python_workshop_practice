@@ -7,5 +7,5 @@ for i in range(0,len(versity_name)):
         res[versity_name[i]]+=1
     else:
         res[versity_name[i]]=1
-
+print(res.keys())
 print(res)
